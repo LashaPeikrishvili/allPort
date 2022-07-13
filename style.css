@@ -83,7 +83,7 @@ select {
 }
 
 .headerSecondFloorCenter {
-    width: 30%;
+    width: 50%;
 }
 
 .headerSecondFloorCenter nav ul {
@@ -156,13 +156,15 @@ ul li {
     margin-top: 3%;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 5%;
 }
 
 .policy {
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
-    width: 20%;
+    max-width: 330px;
+    width: 100%;
     /* background-color: #27187F; */
     justify-content: center;
     align-items: center;
@@ -192,17 +194,25 @@ ul li {
 
 .quick {
     margin-top: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
     padding-right: 70%;
     font-size: 18px;
 }
 
 .featuredNews {
     margin-top: 5%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     font-size: 18px;
 }
 
 .white {
-    background-color: red;
+    max-width: 742px;
+    width: 100%;
+    background-color: white;
+    padding: 5%;
+}
+
+.statue {
+    width: 706px;
+    padding-right: 10%;
 }
