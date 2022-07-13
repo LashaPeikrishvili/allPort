@@ -10,6 +10,8 @@ languages.addEventListener("click", function () {
     } else if (languages.value == 2) {
         usaFlag.style.display = "none";
         geoFlag.style.display = "block";
+        geoFlag.style.width = "15px";
+        geoFlag.style.height = "15px"
     }
 
 })
