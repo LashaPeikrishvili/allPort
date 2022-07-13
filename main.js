@@ -14,6 +14,8 @@ languages.addEventListener("click", function () {
 
 })
 
+
+
 let search = document.querySelector(".search");
 
 let input = document.querySelector(".input");

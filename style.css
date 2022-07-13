@@ -1,6 +1,7 @@
 .container {
     max-width: 1920px;
-    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .myHeaderDiv1 {
@@ -48,12 +49,13 @@
 .languages {
     font-size: 12px;
     color: #758BFD;
+    outline: none;
 }
 
 .allPort {
     display: flex;
-    /* margin-left: 1%;
-    margin-top: 2.5%; */
+    margin-left: 1%;
+    margin-top: 2.5%;
     font-size: 31px;
     color: #758BFD;
 }
@@ -64,15 +66,72 @@
 
 .allPortDiv {
     display: flex;
-    margin-left: 1%;
-    margin-top: 2.5%;
+    /* margin-left: 1%;
+    margin-top: 2.5%; */
 }
 
 select {
     border: none;
 }
 
-nav {
+.headerSecondFloorLeft {
+    display: flex;
+    /* background-color: aqua; */
+    width: 5%;
+    margin-left: 1%;
+    /* margin-top: 2.5%; */
+}
+
+.headerSecondFloorCenter {
+    width: 30%;
+}
+
+.headerSecondFloorCenter nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    margin-right: 1%;
+    /* margin-top: 3.4%; */
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    height: 20px;
+}
+
+.mySecondHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5%;
+    align-items: center;
+}
+
+.input {
+    width: 20px;
+    transition: all 1s;
+}
+
+.img-search {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+
+.style {
+    width: 200px;
+}
+
+ul li {
+    margin-left: 25px;
+    color: blue;
+}
+
+.selectLi {
+    color: blue;
+}
+
+/* nav {
     margin-top: 2.25%;
     width: 30%;
     margin-left: 20%;
@@ -97,6 +156,10 @@ li {
 
 .headerSecondFloorLeft {
     display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
 }
 
 .covid {
@@ -104,12 +167,12 @@ li {
     font-size: 14px;
     margin-top: 3.4%;
     margin-left: 3%;
+    margin-right: 25%;
 }
 
 .img-search {
     height: 20px;
     width: 20px;
-    /* margin-left: -20px; */
     position: absolute;
 }
 
@@ -123,15 +186,10 @@ li {
 }
 
 .search {
-    margin-right: 2%;
+    margin-right: 0;
+    margin-top: 3.4%;
     display: flex;
     justify-content: flex-end;
     width: 200px;
-
-
-}
-
-ul li {
-    margin-left: 25px;
-    color: blue;
-}
+    height: 20px;
+} */
