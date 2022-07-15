@@ -76,13 +76,26 @@
                     <p class="featuredNews">Featured News</p>
 
                     <div class="white">
-                        <img class="statue" src="./images/freedom.png" alt="freedom">
+                        <div class="mySlider fade">
+                            <img class="statue" src="./images/freedom.png" alt="freedom">
+                        </div>
+                        <div class="mySlider fade">
+                            <img class="statue" src="./images/bridge.jpg" alt="bridge">
+                        </div>
+                        <div class="mySlider fade">
+                            <img class="statue" src="./images/central-park.jpg" alt="central-park">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095</a>
                         <p class="bankers">Barclays is asking more bankers to return to its New York</p>
                         <p class="dateP">Sep. 24, 2020 at 11:07 a.m. ET</p>
-                        <div class="circle">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
+                        <div class="slidersFooter">
+                            <div class="circle">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+
                         </div>
                     </div>
 
